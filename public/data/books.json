@@ -1,0 +1,81 @@
+[
+    {
+      "bookId": "1",
+      "bookName": "The Silent Patient",
+      "author": "Alex Michaelides",
+      "image": "https://celadonbooks.com/wp-content/uploads/2018/09/silentpantientonwhite.jpg",
+      "review": "A gripping psychological thriller with an unexpected twist.",
+      "totalPages": 336,
+      "rating": 4.5,
+      "category": "Thriller",
+      "tags": ["Suspense", "Psychological"],
+      "publisher": "Celadon Books",
+      "yearOfPublishing": 2019
+    },
+    {
+      "bookId": "2",
+      "bookName": "Educated",
+      "author": "Tara Westover",
+      "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/3b17ce88175083.5dce0d0708808.png",
+      "review": "A powerful memoir about resilience and the transformative power of education.",
+      "totalPages": 334,
+      "rating": 4.7,
+      "category": "Memoir",
+      "tags": ["Inspiring", "Biography"],
+      "publisher": "Random House",
+      "yearOfPublishing": 2018
+    },
+    {
+      "bookId": "3",
+      "bookName": "Where the Crawdads Sing",
+      "author": "Delia Owens",
+      "image": "https://thefirstedition-prod.s3.us-east-2.amazonaws.com/wp-content/uploads/2023/10/15161033/Owens-Delia_Where-the-Crawdads-Sing_14646-2-e1696963038956.jpg",
+      "review": "A haunting tale of a young girl growing up in isolation in the marshlands.",
+      "totalPages": 368,
+      "rating": 4.6,
+      "category": "Fiction",
+      "tags": ["Mystery", "Romance"],
+      "publisher": "G.P. Putnam's Sons",
+      "yearOfPublishing": 2018
+    },
+    {
+      "bookId": "4",
+      "bookName": "Becoming",
+      "author": "Michelle Obama",
+      "image": "https://static01.nyt.com/images/2018/11/09/books/review/09bookobama-copy/09bookobama-copy-videoSixteenByNineJumbo1600-v3.jpg",
+      "review": "An intimate and inspiring memoir from the former First Lady of the United States.",
+      "totalPages": 448,
+      "rating": 4.8,
+      "category": "Memoir",
+      "tags": ["Inspiring", "Biography"],
+      "publisher": "Crown Publishing Group",
+      "yearOfPublishing": 2018
+    },
+    {
+      "bookId": "5",
+      "bookName": "The Midnight Library",
+      "author": "Matt Haig",
+      "image": "https://perireads.com/wp-content/uploads/2021/12/The-Midnight-Library-Feature.jpg",
+      "review": "A thought-provoking novel about life, regrets, and the infinite possibilities of choice.",
+      "totalPages": 304,
+      "rating": 4.4,
+      "category": "Fiction",
+      "tags": ["Fantasy", "Philosophical"],
+      "publisher": "Viking",
+      "yearOfPublishing": 2020
+    },
+    {
+      "bookId": "6",
+      "bookName": "Atomic Habits",
+      "author": "James Clear",
+      "image": "https://m.media-amazon.com/images/I/61Bhf8CdaML._AC_UF1000,1000_QL80_.jpg",
+      "review": "A practical guide to building good habits and breaking bad ones with small, incremental changes.",
+      "totalPages": 320,
+      "rating": 4.9,
+      "category": "Self-Help",
+      "tags": ["Productivity", "Personal Development"],
+      "publisher": "Avery",
+      "yearOfPublishing": 2018
+    }
+  ]
+  
