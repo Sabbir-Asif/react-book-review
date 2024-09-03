@@ -58,16 +58,16 @@ const Header = () => {
                         {links}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-3xl font-bold">Book Vibe</a>
+                <a className="btn btn-ghost text-lg md:text-3xl font-bold">Book Vibe</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal text-gray-600 items-center text-lg px-1">
                     {links}
                 </ul>
             </div>
-            <div className="navbar-end gap-3">
-                <a className="btn text-white text-lg font-semibold bg-green-primary">Sign in</a>
-                <a className="btn text-white text-lg font-semibold bg-blue-primary">Sign up</a>
+            <div className="navbar-end gap-1 md:gap-3">
+                <a className="btn text-white text-sm md:text-lg font-semibold bg-green-primary">Sign in</a>
+                <a className="btn text-white text-sm hidden md:flex md:text-lg font-semibold bg-blue-primary">Sign up</a>
             </div>
         </div>
     );
