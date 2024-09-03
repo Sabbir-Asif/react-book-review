@@ -3,16 +3,14 @@ import { Link } from "react-router-dom";
 
 const BookCard = ({ book }) => {
     const { bookId, bookName, category, tags, author, rating, image } = book;
-    // const handleCardClick = () => {
-    //     <Link to={`/book/${id}`}></Link>
-    // }
+
     return (
         <Link to={`/book/${bookId}`}>
             <div className="card bg-base-100 shadow-sm p-6 border-gray-200 border-2" >
                 <figure className="">
                     <img
                         src={image}
-                        alt="Shoes"
+                        alt="Book"
                         className="h-56 rounded-lg" />
                 </figure>
                 <div className="card-body">

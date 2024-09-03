@@ -8,6 +8,7 @@ import {
 import './index.css'
 import Root from './components/root/Root.jsx';
 import Home from './components/home/Home.jsx';
+import BookDetails from './components/bookDetails/BookDetails.jsx';
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,11 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home></Home>
+      },
+      {
+        path: '/book/:bookId',
+        element: <BookDetails></BookDetails>,
+        loader: () => fetch('/data/books.json')   //This is not the best practice
       }
     ]
   },
