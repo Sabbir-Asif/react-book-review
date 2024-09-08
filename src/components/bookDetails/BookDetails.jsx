@@ -1,10 +1,21 @@
 import { useLoaderData, useParams } from "react-router-dom";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { addToReadList, addToWishList } from "../../utility/localStorage";
 
 const BookDetails = () => {
     const { bookId } = useParams();
     const books = useLoaderData();
     const book = books.filter(book => book.bookId === bookId)
     const { bookName, category, tags, author, rating, image, review, totalPages, yearOfPublishing, publisher } = book[0];
+
+    const handleRead = () => {
+        toast(addToReadList(bookId));
+    }
+
+    const handleWishList = () => {
+        toast(addToWishList(bookId));
+    }
 
     return (
         <div className="my-20 flex flex-col md:flex-row gap-6 justify-center">
@@ -50,11 +61,12 @@ const BookDetails = () => {
                         </tr>
                     </table>
                     <div className="flex gap-1 md:gap-3 mt-4 px-4">
-                        <a className="btn btn-outline border-gray-300 hover:bg-green-primary hover:text-white hover:border-none text-sm md:text-lg font-semibold ">Read</a>
-                        <a className="btn text-white text-sm md:text-lg font-semibold bg-blue-primary hover:btn-outline">Wishlist</a>
+                        <a className="btn btn-outline border-gray-300 hover:bg-green-primary hover:text-white hover:border-none text-sm md:text-lg font-semibold " onClick={handleRead}>Read</a>
+                        <a className="btn text-white text-sm md:text-lg font-semibold bg-blue-primary hover:btn-outline" onClick={handleWishList}>Wishlist</a>
                     </div>
                 </div>
             </div>
+            <ToastContainer />
         </div>
     );
 };

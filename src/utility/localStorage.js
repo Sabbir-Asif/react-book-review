@@ -44,3 +44,5 @@ const addToReadList = id => {
     }
     return "This book has already been added to reading list"
 }
+
+export {getWishListedBooks, getReadListedBooks, addToWishList, addToReadList}
