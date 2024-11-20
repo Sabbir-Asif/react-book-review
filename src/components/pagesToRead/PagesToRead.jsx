@@ -42,7 +42,7 @@ const PagesToRead = () => {
 
   return (
     <div className='my-20 text-gray-500 font-work-sans'>
-      <ResponsiveContainer width="100%" height={600}>
+      <ResponsiveContainer width="100%" height={550}>
         <BarChart
           data={graphBooks}
           margin={{ top: 20, right: 30, left: 20, bottom: 5 }}

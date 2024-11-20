@@ -73,8 +73,8 @@ const ListedBooks = () => {
   };
 
   return (
-    <div>
-      <h2 className="text-3xl font-work-sans font-bold my-10 p-6 bg-base-200 rounded-lg text-center">
+    <div className='p-3'>
+      <h2 className="text-2xl lg:text-3xl font-work-sans font-bold my-10 p-6 bg-base-200 rounded-lg text-center">
         Books
       </h2>
 
@@ -84,7 +84,7 @@ const ListedBooks = () => {
           open={isOpen}
           onToggle={toggleDropdown}
         >
-          <summary className="btn m-1 bg-green-primary text-white font-semibold text-lg font-work-sans">
+          <summary className="btn m-1 bg-green-primary text-white font-semibold text-base lg:text-lg font-work-sans">
             Sort By
             <span className="text-2xl">
               {isOpen ? <MdKeyboardArrowUp /> : <MdKeyboardArrowDown />}
@@ -99,10 +99,10 @@ const ListedBooks = () => {
         </details>
       </span>
 
-      <div className="flex items-end">
+      <div className="flex items-end my-2">
         <div className="font-work-sans text-lg text-gray-500">
-          <button className='focus:text-gray-800 p-6 focus:border-2 focus:border-y-gray-300 focus:border-t-gray-300 focus:border-b-0 border-b-2 focus:rounded-t-lg' onClick={handleReadBooks}>Read Books</button>
-          <button className='focus:text-gray-800 p-6 focus:border-2 focus:border-y-gray-300 focus:border-t-gray-300 focus:border-b-0 border-b-2 focus:rounded-t-lg' onClick={handleWishlistBooks}>Wishlist Books</button>
+          <button className='focus:text-gray-800 p-1 lg:p-6 focus:border-2 focus:border-y-gray-300 focus:border-t-gray-300 focus:border-b-0 border-b-2 focus:rounded-t-lg' onClick={handleReadBooks}>Read Books</button>
+          <button className='focus:text-gray-800 p-1 lg:p-6 focus:border-2 focus:border-y-gray-300 focus:border-t-gray-300 focus:border-b-0 border-b-2 focus:rounded-t-lg' onClick={handleWishlistBooks}>Wishlist Books</button>
         </div>
         <div className="h-0.5 bg-gray-300 flex-grow"></div>
       </div>

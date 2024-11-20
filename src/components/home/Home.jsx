@@ -3,7 +3,7 @@ import Books from "../books/Books";
 
 const Home = () => {
     return (
-        <div>
+        <div className="p-2">
             <Banner></Banner>
             <Books></Books>
         </div>
