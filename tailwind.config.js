@@ -1,3 +1,5 @@
+import daisyui from 'daisyui';
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -16,5 +18,5 @@ export default {
       'playfair': ["Playfair Display", "sans-serif"]
     }
   },
-  plugins: [require('daisyui')],
+  plugins: [daisyui],
 }
